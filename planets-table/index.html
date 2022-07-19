@@ -25,9 +25,11 @@
                         </caption>
                 <!-- The second child of the table element should be the colgroup element, which also contains several col elements, and helps define the purpose of the table colums. -->
                 <colgroup>
-                    <thead>
-                 <tr>
-                <th col span="2">&nbsp;</th>
+                    <!-- The table head element should be the third child of the table element; it will wrap the code and content to define a row of column headers. -->    
+                        <thead>
+                             <!-- The fourth child of the table element should be the table body element, which will contain the code and content to display rows of data. -->
+                <tbody>
+                <th col span="2" scope="rowgroup">&nbsp;</th>
                 <th scope="col">Name</th>
                 <th scope="col">Mass<br>(10<sup>24</sup>kg)</th>
                 <th scope="col">Diameter<br>(km)</th>
@@ -39,11 +41,9 @@
                 <th scope="col">Number<br>of<br>Moons</th>
                 <th scope="col">Notes</th>
                 <th scope="col">Images</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-            <th colspan="2" rowspan="4" scope="rowgroup">Terrestrial Planets</th>
+            </tr>
+    
+            <tr><th colspan="2" rowspan="4" scope="rowgroup">Terrestrial Planets</th>
             <th scope="row">Mercury</th>
                     <td>0.330</td> 
                     <td>4,879 </td>
@@ -90,7 +90,7 @@
                     <td><img src="./images/mars.jpg"></td>
                 </tr>
                 <tr><th row span="2" scope="rowgroup">Gas giants</th>
-                    <th col span="1" row span="4" scope="rowgroup">Jovian planets</row>
+                    <th row span="4" scope="rowgroup">Jovian planets</row>
                     <th scope="row">Jupiter</th>
                     <td>Jupiter</td> 
                     <td>1898</td> 
@@ -102,7 +102,8 @@
                     <td>-110</td> 
                     <td>67</td> 
                     <td>The largest planet</td>
-                <td> <img src="./images/jupiter.jpg"></td></tr>
+                <td> <img src="./images/jupiter.jpg"></td>
+            </tr>
                 <tr><th col span="rowgroup">Saturn</th> 
                     <td>568 
                     <td></td>120,536 
@@ -114,8 +115,8 @@
                     <td>62</td>
                     <td><img src="./images/Saturn.jpg"></td>
                     </tr>
-                    <tr><th scope="row">Ice Giants</th></tr>
-                    <tr><th scope="row" rowspan="2">Uranus</th>
+                    <tr><th scope="rowgroup" rowspan="2">Ice Giants</th>
+                    <th scope="row" rowspan="2">Uranus</th>
                         <td>86.8</td> 
                         <td>51,118</td> 
                         <td>1271</td> 
@@ -152,8 +153,8 @@
     </tbody>
     </table>
 </main>
-                <!-- The table head element should be the third child of the table element; it will wrap the code and content to define a row of column headers. -->    
                 
-                <!-- The fourth child of the table element should be the table body element, which will contain the code and content to display rows of data. -->
+                
+               
     </body>
 </html>
