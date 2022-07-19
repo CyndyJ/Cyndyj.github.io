@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"{font-family: sans-serif;
+          font-size:16px;}>
+    
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,14 +16,19 @@
             <header><h1>Planets Data</h1></header>
         
         <!-- Add a main element to contain the table -->
-            <main>
+            <main {margin:0 auto;width:80%;}>
             <!-- Add the table element. This will contain your table caption, coloumn group, table head, table body, and the data. -->
-                <table>
+                <table{border-collapse: collapse;
+                    border: 2px solid rgb(200,200,200);
+                    letter-spacing: 1px;
+                    font-size: 0.75rem;
+                      width:100%;
+                      max-width:1920px;} >
                     
                 <!-- The caption element should be the first child of the table element, and wrap the following text and link.-->
-        <caption>
+                        <caption>
                 Data about the planets of our solar system (Planetary facts taken from <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).
-    </caption>
+                        </caption>
                 <!-- The second child of the table element should be the colgroup element, which also contains several col elements, and helps define the purpose of the table colums. -->
                 <colgroup>
                     <thead>
@@ -53,7 +60,7 @@
                     <td>167</td> 
                     <td>0</td> 
                     <td>Closest to the Sun</td>
-                    <td><img src="./images/mercury.jpg"></td>
+                    <td><img src="./images/mercury.jpg" {width:100%; max-width:4.53125rem;}></td>
                 <tr><th scope="row">Venus</th>
                     <td>4.87</td>
                     <td>12,104</td> 
@@ -89,7 +96,7 @@
                     <td><img src="./images/mars.jpg"></td>
                 </tr>
                 <tr><th row span="2" scope="rowgroup">Gas giants</th>
-                    <th row span="4" scope="rowgroup">Jovian planets</row>
+                    <th col span="1" row span="4" scope="rowgroup">Jovian planets</row>
                     <th scope="row">Jupiter</th>
                     <td>Jupiter</td> 
                     <td>1898</td> 
@@ -101,7 +108,7 @@
                     <td>-110</td> 
                     <td>67</td> 
                     <td>The largest planet</td>
-                <td> <img src="./images/Jupiter.jpg"></td></tr>
+                <td> <img src="./images/jupiter.jpg"></td></tr>
                 <tr><th col span="row">Saturn</th> 
                     <td>568 
                     <td></td>120,536 
