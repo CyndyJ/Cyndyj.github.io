@@ -138,7 +138,14 @@ text-align: left;
 }
 
 /* Image & Figure */
-figure {}
+figure {
+margin-bottom: 2rem;    
+}
+
+figcaption{
+padding-top: .5rem;
+text-align: right;    
+}
 
 
 /* Footer */
