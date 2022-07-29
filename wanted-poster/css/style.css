@@ -139,7 +139,13 @@ text-align: left;
 
 /* Image & Figure */
 figure {
-margin-bottom: 2rem;    
+margin-bottom: 2rem;
+width: 100%;
+max-width: 50rem;
+margin-top: 0rem;
+margin-bottom: 0;
+margin-left: auto;
+margin-right: auto;
 }
 
 figcaption{
@@ -150,4 +156,13 @@ text-align: right;
 
 /* Footer */
 
+footer {
+padding-top: 1rem;
+padding-bottom: 1rem;
+padding-left: 1rem;
+padding-right: 1rem;
+border-top: 2rem #333;
+border-top-style: solid
+
+}
 
