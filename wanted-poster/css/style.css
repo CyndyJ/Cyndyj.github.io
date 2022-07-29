@@ -139,7 +139,7 @@ text-align: left;
 
 /* Image & Figure */
 
-figure {
+image {
 margin-bottom: 2rem;
 width: 100%;
 max-width: 50rem;
@@ -162,7 +162,7 @@ padding-top: 1rem;
 padding-bottom: 1rem;
 padding-left: 1rem;
 padding-right: 1rem;
-border-top: 2rem #333;
+border-top-style: 2rem #333;
 border-top-style: solid
 
 }
