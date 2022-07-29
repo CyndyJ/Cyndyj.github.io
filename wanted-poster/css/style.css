@@ -161,6 +161,6 @@ padding-left: 1rem;
 padding-right: 1rem;
 border-top-style: 2rem #333 !important;
 border-top-style: solid;
-border-top-width: 2rem;
+border-top-width: 2rem !important;
 }
 
