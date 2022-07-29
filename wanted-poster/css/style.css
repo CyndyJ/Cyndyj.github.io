@@ -159,8 +159,8 @@ padding-top: 1rem;
 padding-bottom: 1rem;
 padding-left: 1rem;
 padding-right: 1rem;
-border-top-style: 2rem #333 !important;
+border-top-style: #333;
 border-top-style: solid;
-border-top-width: 2rem !important;
+border-top-width: 2rem;
 }
 
