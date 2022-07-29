@@ -142,7 +142,7 @@ text-align: left;
 
 img {
 margin-bottom: 2rem;
-width: 100%; max-width: 50rem;
+width: 100%; max-width: 50rem !important;
 margin-top: 0rem;
 margin-bottom: 0;
 margin-left: auto;
@@ -162,7 +162,7 @@ padding-top: 1rem;
 padding-bottom: 1rem;
 padding-left: 1rem;
 padding-right: 1rem;
-border-top-style: 2rem #333;
+border-top-style: 2rem #333 !important;
 border-top-style: solid
 }
 
