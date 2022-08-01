@@ -79,8 +79,14 @@ header, footer {
 
 /* Imported Typfaces */
 
-@font-face {}
-@font-face
+@font-face {
+    font-family: 'zantrokeregular';
+    src: url('../fonts/montserrat-regular.ttf') format('truetype'),
+         url('../fonts/josefinslab-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 
 
@@ -89,14 +95,14 @@ header, footer {
 
 html {
     
-    font-family:Montserrat;
+    font-family:Montserrat, sans-serif;
     src:url(./fonts/montserrat-regular.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 h1{
-    font-family:Josefinslab;
+    font-family:Josefinslab, serif;
     letter-spacing: 0.125rem;
     font-size: 3.75rem;
     margin: 1.125rem;
@@ -106,7 +112,7 @@ h1{
  }
 
 h2{
-    font-family:Josefinslab;
+    font-family:Josefinslab, serif;
     letter-spacing: 0.125rem;
     font-size: 1.5rem;
 
@@ -114,7 +120,7 @@ h2{
 }
 
 h2 + p {
-    font-family: Josefinslab;
+    font-family: Josefinslab, serif;
     letter-spacing: 0.125rem;
 
 }
@@ -141,13 +147,19 @@ figcaption {
 
 /* Link Styling */
 
-a {}
+a {
+    outline: none;
+}
 
 a:link,
-a:visited {}
+a:visited {
+    background-color: #33658A;
+}
 
 a:focus,
-a:hover {}
+a:hover {
+    
+}
 
 
 
@@ -159,6 +171,7 @@ ul {
     margin-bottom: 1rem;
     margin-left: 0;
     margin-right: 0;
+    list-style-type: square;
 }
 
 ol {
@@ -166,9 +179,12 @@ ol {
     margin-bottom: 1rem;
     margin-left: 0;
     margin-right: 0;
+    list-style-type: lower-alpha;
 }
 
-.long-list a:hover {}
+.long-list a:hover {
+    transform-style: upper-alpha;
+}
 
 
 
