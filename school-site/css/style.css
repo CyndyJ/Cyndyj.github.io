@@ -96,7 +96,7 @@ header, footer {
 html {
     
     font-family:Montserrat, sans-serif;
-    src:url(./fonts/montserrat-regular.ttf) format('truetype');
+    src:url(../fonts/montserrat-regular.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -160,7 +160,6 @@ a:focus,
 a:hover {
     text-decoration: none;
     outline: none;
-    
 }
 
 
@@ -192,14 +191,32 @@ ol {
 
 /* Navigation Menu */
 
-nav {}
+nav {
+    padding-left: 0;
+    margin-top: 0.125rem;
+}
 
-nav a {}
+nav a {
+    flex: 1;
+    text-decoration: none;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+    border-style: solid, width 0.0625, color #33658A;
+}
 
 nav a:focus,
-nav a:hover {}
+nav a:hover {
+    color: #FFF;
+    background-color: #33658A;
+}
 
-nav a:active {}
+nav a:active {
+    color: #FFF;
+    background-color: #000;
+}
 
 
 
