@@ -197,7 +197,7 @@ nav {
 }
 
 nav a {
-    flex: 1;
+    display: inline-block;
     text-decoration: none;
     width: 100%;
     line-height: 3;
