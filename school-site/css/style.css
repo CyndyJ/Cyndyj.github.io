@@ -126,9 +126,16 @@ p {
     text-indent: 1.5rem;
 }
 
-li {}
+li {
+    font-size: 0.75rem;
+    letter-spacing: 0.031rem;
+    word-spacing: 0.125rem;
+}
 
-figcaption {}
+figcaption {
+    font-size: 0.75rem;
+    margin-bottom: 2rem;
+}
 
 
 
@@ -147,9 +154,19 @@ a:hover {}
 
 /* List Styling */
 
-ul {}
+ul {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+}
 
-ol {}
+ol {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+}
 
 .long-list a:hover {}
 
