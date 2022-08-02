@@ -80,11 +80,16 @@ header, footer {
 /* Imported Typfaces */
 
 @font-face {
-    font-family: 'sans-serif, serif';
-    src: url('../fonts/montserrat-regular.ttf') format('truetype, opentype'),
-         url('../fonts/josefinslab-regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'sans-serif';
+    src: url('../fonts/montserrat-regular.ttf') format('truetype, opentype');
+        font-weight: normal;
+        font-style: normal;
+}
+    @font-face {
+        font-family: 'serif';
+        src: url('../fonts/josefinslab-regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
 }
 
 
@@ -198,7 +203,6 @@ nav {
 
 nav a {
     display: inline-block;
-    text-decoration: none;
     width: 100%;
     line-height: 3;
     text-align: center;
