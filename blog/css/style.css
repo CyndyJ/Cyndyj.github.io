@@ -55,10 +55,13 @@ html {
     font-size:16px;
 }
 
-body {
-    margin: 1.5rem auto;
-    width:90%;
-    min-width:56.25rem;
+body {font-family:Lato, Montserrat, sans-serif;
+    font-size:1rem;
+    padding:1rem;
+    min-width:39rem;
+    max-width:50rem;
+    margin:0 auto;
+    
 }
 
 /* Layout */
@@ -90,7 +93,7 @@ figure {
 }
 
 figure img {
-    width:100%;
+    width:60%;
     max-width:25rem;
 }
 
@@ -100,7 +103,7 @@ figcaption {
 
 
 nav {
-    align-content: center;
+    align-content: normal;
     width:11.25rem;
 }
 
