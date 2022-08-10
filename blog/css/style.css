@@ -183,17 +183,14 @@ html {
     font-style: normal;
 }
 
-h1{
+h1 {
     font-family:Josefinslab, Ultra, serif;
     letter-spacing: 0.125rem;
     font-size: 3.75rem;
     margin: 1.125rem;
     text-align: center;
 }
-    .transform {
-        rotate('0.8turn');
 
- }
 
 h2{
     font-family:Josefinslab, serif;
@@ -297,6 +294,9 @@ nav a:active {
     text-decoration: line-through;
 }
 
+.expand {
+    text-decoration: none;
+}
 
 /* Footer Styles */
 
