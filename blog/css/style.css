@@ -198,7 +198,7 @@ h2{
 
 }
 
-h2 + p {
+h2 {
     font-family: Josefinslab, serif;
     letter-spacing: 0.125rem;
     text-indent: 1.5rem;
@@ -211,6 +211,7 @@ h2 + p {
   }
 
 p {
+    font-family: Josefinslab, serif;
     font-size: 0.75rem;
     letter-spacing: 0.031rem;
     word-spacing: 0.125rem;
