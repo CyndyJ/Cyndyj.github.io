@@ -73,7 +73,7 @@ main {
 }
 
 section {
-    float: left;
+    float: right;
     min-width: 22.5rem;
     width:50%;
 }
@@ -185,6 +185,7 @@ h1{
     font-size: 3.75rem;
     margin: 1.125rem;
     text-align: center;
+    transform: rotate(0.8turn);
 
 
  }
@@ -289,7 +290,7 @@ nav a:active {
 /* Footer Styles */
 
 footer {
-    
+
     
 }
 
