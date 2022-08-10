@@ -131,37 +131,9 @@ header, footer {
     src: url('../fonts/sans-serif/montserrat-regular.ttf') format('truetype, opentype');
         font-weight: normal;
         font-style: normal;
+
 }
-@font-face {
-    font-family: 'sans-serif';
-    src: url('../fonts/sans-serif/roboto-regular.ttf') format('truetype, opentype');
-        font-weight: normal;
-        font-style: normal;
-}
-@font-face {   
-    font-family: 'sans-serif';
-    src: url('../fonts/sans-serif/lato-regular.ttf') format('opentype, truetype');
-        font-weight: normal;
-        font-style: normal;
- }
-@font-face {
-    font-family: 'sans-serif';
-    src: url('../fonts/sans-serif/opensans-regular.ttf') format('opentype, truetype');
-        font-weight: normal;
-        font-style: normal;
-}
-@font-face {
-    font-family: 'serif';
-    src: url('../fonts/serif/josefinslab-regular.ttf') format('truetype');
-        font-weight: normal;
-        font-style: normal;
-}
-@font-face {
-    font-family: serif;
-    src: url('../fonts/serif/robotoslab-regular.ttf') format('truetype');
-        font-weight: normal;
-        font-style: normal;
-}
+
 @font-face {
     font-family: serif;
     src: url('../fonts/serif/rozhaone-regular.ttf') format('opentype, truetype');
@@ -189,7 +161,7 @@ html {
 }
 
 h1 {
-    font-family:Josefinslab, Ultra, serif;
+    font-family:Montserrat, Ultra, serif, sans-serif;
     letter-spacing: 0.125rem;
     font-size: 3.75rem;
     margin: 1.125rem;
@@ -197,8 +169,8 @@ h1 {
 }
 
 
-h2{
-    font-family:Josefinslab, serif;
+h2 {
+    font-family:Montserrat, sans-serif;
     letter-spacing: 0.125rem;
     font-size: 1.5rem;
     text-align: left;
@@ -206,8 +178,8 @@ h2{
 
 }
 
-h2 {
-    font-family: Josefinslab, serif;
+h3 {
+    font-family: Montserrat, sans-serif;
     letter-spacing: 0.125rem;
     text-indent: 1.5rem;
     text-align: left;
@@ -234,7 +206,7 @@ div:nth-of-type(2) {
 
 
 p {
-    font-family: Josefinslab, serif;
+    font-family: Montserrat, sans-serif;
     font-size: 0.75rem;
     letter-spacing: 0.031rem;
     word-spacing: 0.125rem;
