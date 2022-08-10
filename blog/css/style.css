@@ -63,7 +63,7 @@ body {
 
 /* Layout */
 
-main {
+section {
     overflow:auto;
     min-width:45rem;
     
