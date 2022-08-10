@@ -69,6 +69,12 @@ main {
     
 }
 
+.wrapper::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+
 section {
  
     min-width: 22.5rem;
@@ -183,7 +189,9 @@ h1{
     font-size: 3.75rem;
     margin: 1.125rem;
     text-align: center;
-    transform: rotate(0.8turn);
+}
+    .transform {
+        rotate('0.8turn');
 
  }
 
