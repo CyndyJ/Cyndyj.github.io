@@ -83,17 +83,17 @@ section {
 }
 
 .main-section {
-    font-family: Lato,sans-serif;
+    font-family: Montserrat, sans-serif;
 }
 
 figure {
-    width:60%;
+    width:100%;
     margin:0 10% 0 0;
     
 }
 
 figure img {
-    width:60%;
+    width:100%;
     max-width:25rem;
 }
 
@@ -121,9 +121,9 @@ section, aside, nav, footer {
 
 /* header and footer */
 
-header, footer {
-    border-top: #33658A;
-    
+header {
+    border-top: .125rem solid #33658A;
+    border-bottom: .125rem solid #33658A;
  
 }
 
@@ -188,6 +188,10 @@ h3 {
     text-align: left;
 
 }
+
+article {
+    flex: 1;
+  }
 
 div:nth-of-type(1) {
     width: 100%;
