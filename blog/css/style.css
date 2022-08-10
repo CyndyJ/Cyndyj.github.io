@@ -75,6 +75,10 @@ main {
     display: block;
   }
 
+.article-image {
+    float: left;
+}
+
 section {
  
     min-width: 22.5rem;
@@ -84,7 +88,7 @@ section {
 figure {
     width:60%;
     margin:0 10% 0 0;
-    float:left;
+    
 }
 
 figure img {
@@ -211,7 +215,6 @@ h2 {
 
 div:nth-of-type(1) {
     width: 100%;
-    float: left;
   }
   
   div:nth-of-type(2) {
@@ -222,6 +225,12 @@ div:nth-of-type(1) {
 .container {
     column-count: 1;
   }
+
+.subsection {
+        display: grid;
+        gap: 0.25rem;
+      }
+
 
 p {
     font-family: Josefinslab, serif;
@@ -234,7 +243,6 @@ p {
 h3 {
     font-family: Josefinslab, serif;
     letter-spacing: 0.125rem;
-    text-indent: 1.5rem;
     text-align: left;
 }
 
@@ -249,6 +257,7 @@ figcaption {
 /* Link Styling */
 
 a {
+    text-decoration: none;
     outline: none;
 }
 
@@ -285,7 +294,8 @@ nav a {
 }
 
 nav a:focus,
-nav a:hover { text-decoration: none;
+nav a:hover { 
+    text-decoration: none;
    
 }
 
