@@ -70,7 +70,7 @@ main {
 }
 
 .wrapper::after {
-    content: "";
+    content: "normal";
     clear: both;
     display: block;
   }
