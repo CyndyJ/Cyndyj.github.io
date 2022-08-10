@@ -271,6 +271,7 @@ nav a {
     font-size: 1.125rem;
     margin-bottom: 1.5rem;
     color: #33658A;
+    word-spacing: 5rem;
        
 }
 
@@ -282,7 +283,9 @@ nav a:hover {
 
 nav a:active {
     color: black;
+    text-transform: uppercase;
     text-decoration: line-through;
+    rotate: 10;
 }
 
 .expand {
@@ -294,6 +297,7 @@ nav a:active {
 footer {
     font-family: rozhaone, serif;
     text-decoration: none;
+    clear: both;
    
 }
 
