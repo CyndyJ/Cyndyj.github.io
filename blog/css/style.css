@@ -180,13 +180,12 @@ html {
 }
 
 h1{
-    font-family:Josefinslab, serif;
+    font-family:Josefinslab, Ultra, serif;
     letter-spacing: 0.125rem;
     font-size: 3.75rem;
     margin: 1.125rem;
     text-align: center;
     transform: rotate(0.8turn);
-
 
  }
 
@@ -290,6 +289,7 @@ nav a:active {
 /* Footer Styles */
 
 footer {
+    font-family: rozhaone, serif;
 
     
 }
