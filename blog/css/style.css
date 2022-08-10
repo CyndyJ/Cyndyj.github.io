@@ -106,8 +106,10 @@ figcaption {
 
 
 nav {
-    align-content: normal;
-    width:11.25rem;
+    border-top: .125rem solid #33658A;
+    border-bottom: .125rem solid #33658A;
+    text-align: left;
+   
 }
 
 footer {
@@ -122,8 +124,7 @@ section, aside, nav, footer {
 /* header and footer */
 
 header {
-    border-top: .125rem solid #33658A;
-    border-bottom: .125rem solid #33658A;
+    font-family: Montserrat, sans-serif;
  
 }
 
@@ -211,7 +212,11 @@ div:nth-of-type(2) {
         gap: 0.25rem;
       }
 
-
+.span {
+    color: white;
+    font-family: ultra, serif;
+    background-color: rgb(99, 41, 52);
+}
 p {
     font-family: Montserrat, sans-serif;
     font-size: 0.75rem;
@@ -243,7 +248,7 @@ a:hover {
 }
 
 .button {
-    font-family: ultra, serif;
+    font-family: rozhaone, serif;
     background-color: darkslateblue;
     box-shadow: black;
     color: white;
