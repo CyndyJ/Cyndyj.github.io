@@ -273,6 +273,12 @@ a:hover {
     outline: none;
 }
 
+.button {
+    font-family: ultra, serif;
+    background-color: darkslateblue;
+    box-shadow: black;
+    color: white;
+}
 
 
 
