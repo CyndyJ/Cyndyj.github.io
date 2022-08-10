@@ -95,7 +95,7 @@ figcaption {
 
 
 nav {
-    float: left;
+    float: center;
     width:11.25rem;
 }
 
@@ -282,7 +282,7 @@ nav a:hover { text-decoration: none;
 }
 
 nav a:active {
-    color: #33658A;
+    color: black;
     text-decoration: line-through;
 }
 
