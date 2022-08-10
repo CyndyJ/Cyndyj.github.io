@@ -55,7 +55,7 @@ html {
     font-size:16px;
 }
 
-body {font-family:Lato, Montserrat, sans-serif;
+body {font-family: Montserrat, sans-serif;
     font-size:1rem;
     padding:1rem;
     min-width:39rem;
@@ -98,7 +98,10 @@ figure img {
 }
 
 figcaption {
-    margin:.375rem 0;
+    margin: .375rem 0;
+    font-size: 0.75rem;
+    margin-bottom: 2rem;
+    text-align: left;
 }
 
 
@@ -213,17 +216,7 @@ p {
     text-indent: none;
 }
 
-h3 {
-    font-family: Josefinslab, serif;
-    letter-spacing: 0.125rem;
-    text-align: left;
-}
 
-figcaption {
-    font-size: 0.75rem;
-    margin-bottom: 2rem;
-    text-align: left;
-}
 
 
 
