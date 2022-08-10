@@ -206,6 +206,10 @@ h2 + p {
 
 }
 
+.container {
+    column-count: 2;
+  }
+
 p {
     font-size: 0.75rem;
     letter-spacing: 0.031rem;
