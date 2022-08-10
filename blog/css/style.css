@@ -70,7 +70,7 @@ main {
 }
 
 .wrapper::after {
-    content: "normal";
+    content: "";
     clear: both;
     display: block;
   }
@@ -98,12 +98,12 @@ figcaption {
 
 
 nav {
-    text-align: center;
+    align-content: center;
     width:11.25rem;
 }
 
 footer {
-    clear: both;
+    
     margin-top:1.5rem;
 }
 
