@@ -226,6 +226,14 @@ div:nth-of-type(2) {
         display: table;
       }
 
+.footer1 {
+    text-align: left;
+}
+
+.footer2 {
+    text-align: right;
+}
+
 .span {
     color: white;
     font-family: ultra, serif;
