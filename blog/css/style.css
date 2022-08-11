@@ -49,7 +49,9 @@
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
 /* General setup */
-
+* {
+    box-sizing: border-box;
+  }
 
 html {
     font-size:16px;
@@ -210,6 +212,18 @@ div:nth-of-type(2) {
 .subsection {
         display: grid;
         gap: 0.25rem;
+      }
+
+      .img-container {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+      }
+      
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
       }
 
 .span {
