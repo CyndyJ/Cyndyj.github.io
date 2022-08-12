@@ -61,7 +61,7 @@ html {
 
 body {font-family: Montserrat, sans-serif;
     font-size:1rem;
-    padding:1rem;
+    padding: auto;
     margin:0 auto;
     
 }
@@ -81,7 +81,7 @@ body {font-family: Montserrat, sans-serif;
 
     float: left;
     width: 50%;
-    padding: .375rem;
+    padding: auto;
 }
 
 .main-section {
@@ -95,9 +95,9 @@ figure {
 
 
 figcaption {
-    margin: .375rem;
+    margin: auto;
     font-size: 0.75rem;
-    margin-bottom: 1.125rem;
+    margin-bottom: auto;
     text-align: left;
     background-color: lightgray;
 }
@@ -201,18 +201,21 @@ h3 {
 
 #charcoal,
 span {
+    padding-right: 1.125rem;
+    padding-left: 1.125rem;
     padding-top: 1.125rem;
     padding-bottom: 1.125rem;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: bold;
     transform: rotate(-10deg);
-    -ms-transform: (-10deg);
+    text-transform: uppercase;
     font-weight: bolder;
     color: white;
     font-family: ultra, serif;
     background-color: rgb(99, 41, 52);
     border-radius: .375rem; 
     text-align: center; 
+    text-shadow: #03080c;
 }
 
 .highlight {
