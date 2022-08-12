@@ -152,7 +152,7 @@ html {
 }
 
 h1 {
-    font-family:Montserrat, Ultra, serif, sans-serif;
+    font-family:Montserrat, sans-serif;
     letter-spacing: 0.125rem;
     font-size: 3.75rem;
     margin: 1.125rem;
@@ -208,14 +208,17 @@ h3 {
 #charcoal,
 span {
     padding-top: 1.125rem;
-    font-size: 1.5rem;
+    padding-bottom: 1.125rem;
+    font-size: 2.5rem;
     font-weight: bold;
     transform: rotate(-10deg);
+    -ms-transform: (-10deg);
     font-weight: bolder;
     color: white;
     font-family: ultra, serif;
     background-color: rgb(99, 41, 52);
-    border-radius: .375rem;  
+    border-radius: .375rem; 
+    text-align: center; 
 }
 
 .highlight {
@@ -291,7 +294,8 @@ nav a:focus,
 nav a:hover { 
     text-decoration: none;
 }
-nav a:active {
+nav a:active,
+nav a:visited {
     color: black;
     text-transform: uppercase;
     text-decoration: line-through;
