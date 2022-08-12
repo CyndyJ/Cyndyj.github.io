@@ -214,19 +214,12 @@ article {
         padding: 5px;
       }
       
-      .clearfix::after {
-        content: "";
-        clear: both;
-        display: table;
-      }
-      .leftcolumn {
-        float: left;
-        width: 75%;
-      }
-      .rightcolumn {
+    
+      .right {
+        display: flex;
         float: left;
         width: 25%;
-        padding-left: 20px;
+        padding: 8rem;
       }
 
 
