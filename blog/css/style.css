@@ -109,7 +109,9 @@ figcaption {
 /* header and footer */
 
 header {
+    display: flex;
     font-family: Montserrat, sans-serif;
+    transform: rotate(-10deg);
  
 }
 
@@ -152,11 +154,9 @@ html {
 h1 {
     font-family:Montserrat, sans-serif;
     letter-spacing: 0.125rem;
-    font-size: 3.75rem;
+    font-size: 3rem;
     margin: 1.125rem;
     text-align: center;
-    -ms-transform: rotate(-10deg);
-    transform: rotate(-10deg);
 }
 
 
@@ -172,6 +172,14 @@ h3 {
     letter-spacing: 0.125rem;
     text-indent: 1.5rem;
     text-align: left;
+}
+
+article {
+    display: flex;
+}
+
+aside {
+    display: flex;
 }
 
 .container {
@@ -270,10 +278,7 @@ button {
     background-color: darkslateblue;
     color: white;
     margin-left: 1.2rem;
-    box-shadow: #03080c;
-    
 }
-
 
 
 /* Navigation Menu */
