@@ -49,7 +49,9 @@
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
 /* General setup */
-* {
+* { 
+    padding: 0;
+    margin:0;
     box-sizing: border-box;
   }
 
@@ -196,17 +198,9 @@ article {
     flex: 1;
   }
 
-div:nth-of-type(1) {
-    width: 100%;
-  }
-  
-div:nth-of-type(2) {
-    width: 100%;
-    float: right;
-  }
 
 .container {
-    column-count: 1;
+    display: flex;
   }
 
 .subsection {
@@ -235,15 +229,14 @@ div:nth-of-type(2) {
         padding-left: 20px;
       }
 
-.footer1 {
-    text-align: left;
-}
 
-.footer2 {
-    text-align: right;
-}
 
 .span {
+    padding-top: 1.125rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
     color: white;
     font-family: ultra, serif;
     background-color: rgb(99, 41, 52);
@@ -302,7 +295,7 @@ nav a {
     font-size: 1.125rem;
     margin-bottom: 1.5rem;
     color: #33658A;
-    word-spacing: 5rem;
+    word-spacing: 25rem;
        
 }
 
@@ -323,9 +316,23 @@ nav a:active {
     text-decoration: none;
 }
 
+ul {
+    display: flex;
+
+}
+
+li {
+    padding: 2.5rem;
+
+}
 /* Footer Styles */
 
 footer {
+    display: flex;
+    padding-top: 2.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    justify-content: space-between;
     font-family: rozhaone, serif;
     text-decoration: none;
     clear: both;
