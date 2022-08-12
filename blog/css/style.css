@@ -208,6 +208,7 @@ span {
     padding-bottom: 1.125rem;
     font-size: 3.5rem;
     font-weight: bold;
+    -ms-transform: rotate(-10deg);
     transform: rotate(-10deg);
     text-transform: uppercase;
     font-weight: bolder;
@@ -223,7 +224,7 @@ span {
     color: black;
     text-transform: uppercase;
     text-decoration: line-through;
-    rotate: (-5deg);
+    transform: rotate(5deg);
 }
 .highlight {
     font-weight: bold;
