@@ -188,10 +188,16 @@ h3 {
 }
       
 .right {
-    display: flex;
-    float: left;
+    border-left: .08rem;
     width: 25%;
-    padding: 8rem;
+    
+}
+
+.rightcolumn {
+    display: flex;
+    flex-direction: column;
+    padding: 9rem;
+    height: 31.5rem;
 }
 
 .box {
