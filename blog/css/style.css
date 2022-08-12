@@ -201,8 +201,7 @@ article {
     flex-direction: column;
 }
 
-.highlight, 
-.id {
+span {
     padding-top: 1.125rem;
     font-size: 1.5rem;
     font-weight: bold;
@@ -215,7 +214,7 @@ article {
     
 }
 
-span {
+.highlight{
     font-weight: bold;
 
 }
