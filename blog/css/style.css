@@ -93,6 +93,7 @@ body {font-family: Montserrat, sans-serif;
 figure {
     width:100%;
     margin: auto;
+    align-content: auto;
 }
 
 
@@ -102,6 +103,7 @@ figcaption {
     margin-bottom: auto;
     text-align: left;
     background-color: lightgray;
+    align-content: auto;
 }
 
 /* header and footer */
@@ -226,6 +228,7 @@ span {
     text-decoration: line-through;
     transform: rotate(5deg);
 }
+
 .highlight {
     font-weight: bold;
 }
@@ -305,11 +308,6 @@ nav a:visited {
     
 }
 
-.wrapper {
-    float: left;
-    text-decoration: none;
-    padding: .075rem;
-}
 
 ul {
     display: flex;
