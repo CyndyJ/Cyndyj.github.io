@@ -109,7 +109,7 @@ figcaption {
 /* header and footer */
 
 header {
-    display: flex;
+    
     font-family: Montserrat, sans-serif;
     transform: rotate(-10deg);
  
