@@ -218,6 +218,12 @@ span {
     text-shadow: #03080c;
 }
 
+.blog {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    rotate: (-5deg);
+}
 .highlight {
     font-weight: bold;
 }
@@ -293,10 +299,8 @@ nav a:hover {
 }
 nav a:active,
 nav a:visited {
-    color: black;
-    text-transform: uppercase;
-    text-decoration: line-through;
-    rotate: (-5deg);
+    color: #33658A;
+    
 }
 
 .wrapper {
