@@ -184,6 +184,7 @@ h3 {
     float: left;
     width: 33.33%;
     padding: .375rem;
+    grid-template-columns: auto;
 }
       
 .right {
