@@ -208,23 +208,25 @@ article {
     flex-direction: column;
 }
 
-.span {
+.id {
     padding-top: 1.125rem;
     font-size: 1.5rem;
     font-weight: bold;
     -ms-transform: rotate(-10deg);
     transform: rotate(-10deg);
-    
-}
-
-#Charcoal {
-
     font-weight: bolder;
     color: white;
     font-family: ultra, serif;
     background-color: rgb(99, 41, 52);
     border-radius: .375rem;
+    
 }
+
+span {
+    font-weight: bold;
+
+}
+
 
 p {
     font-family: Montserrat, sans-serif;
