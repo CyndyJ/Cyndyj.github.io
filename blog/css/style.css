@@ -219,15 +219,14 @@ span {
     padding-top: 1.125rem;
     padding-bottom: 1.125rem;
     font-size: 3.5rem;
-    font-weight: bold;
-    text-transform: uppercase;
     font-weight: bolder;
+    text-transform: uppercase;
+    text-shadow: #03080c;
     color: white;
     font-family: ultra, serif;
     background-color: rgb(99, 41, 52);
-    border-radius: .375rem; 
     text-align: center; 
-    text-shadow: #03080c;
+   
 }
 
 .blog {
@@ -255,7 +254,7 @@ p {
 
 a {
     text-decoration: none;
-    outline: none;
+    
 }
 
 a:link,
@@ -266,7 +265,7 @@ a:visited {
 a:focus,
 a:hover {
     text-decoration: none;
-    outline: none;
+    
 }
 
 button {
@@ -277,6 +276,7 @@ button {
     font-family: rozhaone, serif;
     background-color: darkslateblue;
     color: white;
+    text-decoration-color: antiquewhite;
     margin-left: 1.2rem;
 }
 
