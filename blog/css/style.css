@@ -175,10 +175,12 @@ h3 {
 }
 
 article {
+
     display: flex;
 }
 
 aside {
+    grid-template-columns: auto;
     display: flex;
 }
 
@@ -191,7 +193,8 @@ aside {
     gap: auto;
     width: 100%;
     padding: auto;
-    grid-template-columns: auto;
+    grid-template-rows: auto;
+
 }
       
 .right {
