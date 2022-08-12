@@ -86,6 +86,8 @@ body {font-family: Montserrat, sans-serif;
 
 .main-section {
     font-family: Montserrat, sans-serif;
+    padding: auto;
+    margin: auto;
 }
 
 figure {
@@ -174,24 +176,23 @@ h3 {
 
 .subsection {
     display: grid;
-    gap: 0.25rem;
-    float: left;
-    width: 33.33%;
-    padding: .375rem;
+    gap: auto;
+    width: 100%;
+    padding: auto;
     grid-template-columns: auto;
 }
       
 .right {
-    border-left: .08rem;
-    width: 25%;
+    border-left: auto;
+    width: 100%;
     
 }
 
 .rightcolumn {
     display: flex;
     flex-direction: column;
-    padding: 9rem;
-    height: 31.5rem;
+    padding: auto;
+    height: auto;
 }
 
 .box {
