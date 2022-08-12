@@ -70,12 +70,6 @@ body {font-family: Montserrat, sans-serif;
 
 /* Layout */
 
-section {
-    overflow:auto;
-    min-width:45rem;
-    
-}
-
 .wrapper::after {
     content: "";
     clear: both;
@@ -108,18 +102,6 @@ figcaption {
     text-align: left;
 }
 
-
-nav {
-    border-top: .125rem solid #33658A;
-    border-bottom: .125rem solid #33658A;
-    text-align: left;
-   
-}
-
-footer {
-    
-    margin-top:1.5rem;
-}
 
 section, aside, nav, footer {
   padding: .5rem;
@@ -196,33 +178,35 @@ h3 {
 
 article {
     flex: 1;
-  }
+}
 
 
 .container {
     display: flex;
-  }
+}
 
 .subsection {
         display: grid;
         gap: 0.25rem;
-      }
+}
 
-      .img-container {
-        float: left;
-        width: 33.33%;
-        padding: 5px;
-      }
+.img-container {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
       
-    
-      .right {
-        display: flex;
-        float: left;
-        width: 25%;
-        padding: 8rem;
-      }
+.right {
+    display: flex;
+    float: left;
+    width: 25%;
+    padding: 8rem;
+}
 
-
+.box {
+    display:flex;
+    flex-direction: column;
+}
 
 .span {
     padding-top: 1.125rem;
@@ -230,10 +214,18 @@ article {
     font-weight: bold;
     -ms-transform: rotate(-10deg);
     transform: rotate(-10deg);
+    
+}
+
+#Charcoal {
+
+    font-weight: bolder;
     color: white;
     font-family: ultra, serif;
     background-color: rgb(99, 41, 52);
+    border-radius: .375rem;
 }
+
 p {
     font-family: Montserrat, sans-serif;
     font-size: 0.75rem;
@@ -265,6 +257,11 @@ a:hover {
 }
 
 .button {
+    max-height: 3.5rem;
+    max-width: 8rem;
+    font-size: 1.2rem;
+    border-radius: .675;
+    font-weight: bold;
     font-family: rozhaone, serif;
     background-color: darkslateblue;
     box-shadow: black;
@@ -276,6 +273,9 @@ a:hover {
 /* Navigation Menu */
 
 nav {
+    border-top: .125rem solid #33658A;
+    border-bottom: .125rem solid #33658A;
+    text-align: left;
     padding-left: 0;
     margin-top: 0.125rem;
 }
@@ -295,9 +295,7 @@ nav a {
 nav a:focus,
 nav a:hover { 
     text-decoration: none;
-   
 }
-
 nav a:active {
     color: black;
     text-transform: uppercase;
@@ -311,16 +309,17 @@ nav a:active {
 
 ul {
     display: flex;
-
 }
 
 li {
     padding: 2.5rem;
-
 }
+
 /* Footer Styles */
 
 footer {
+
+    margin-top:1.5rem;
     display: flex;
     padding-top: 2.5rem;
     padding-left: 2.5rem;
@@ -329,7 +328,6 @@ footer {
     font-family: rozhaone, serif;
     text-decoration: none;
     clear: both;
-   
 }
 
 
