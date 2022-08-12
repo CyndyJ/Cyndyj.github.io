@@ -190,10 +190,10 @@ article {
         gap: 0.25rem;
 }
 
-.img-container {
+.img {
     float: left;
     width: 33.33%;
-    padding: 5px;
+    padding: .375rem;
 }
       
 .right {
@@ -256,7 +256,7 @@ a:hover {
     outline: none;
 }
 
-.button {
+button {
     max-height: 3.5rem;
     max-width: 8rem;
     font-size: 1.2rem;
